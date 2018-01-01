@@ -47,6 +47,15 @@
   margin-left: 240px;
   margin-right: 180px;
 }
+.carousel {
+  width: 90%;
+}
+.rightOfCarousel {
+  width: 10%;
+}
+.rightOfCarousel img {
+  width: 100%;
+}
 .carousel-inner {
   height: auto;
   max-height: 700px;
