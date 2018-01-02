@@ -48,10 +48,12 @@
   margin-right: 180px;
 }
 .carousel {
-  width: 90%;
+  width: 80%;
+  float: left;
 }
 .rightOfCarousel {
-  width: 10%;
+  width: 20%;
+  float: left;
 }
 .rightOfCarousel img {
   width: 100%;
