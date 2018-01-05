@@ -3,92 +3,101 @@
 <head>
 	<meta charset="utf-8">
 	<title>Fashion</title>
+	<script src="https://use.fontawesome.com/9abc81b21b.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg">
+	<nav class="navbar navbar-expand fixed-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Summer Vacation</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<a class="navbar-brand" href="#">SUMMER<br>VACATION</a>
+			<div class="collapse navbar-collapse">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Brand New<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#">NEW<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Top</a>
+						<a class="nav-link" href="#">TOP</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Bottom</a>
+						<a class="nav-link" href="#">BOTTOM</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SWIMWEAR</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SHOES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">HATS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">ACCESORIES</a>
 					</li>
 				</ul>
-				<div class="middle">
-					<img src="img/logo.png" id="logo">
-				</div>
 				<ul class="navbar-nav right">
-					<li class="nav-item"><a class="nav-link" href="#">Link1</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Link2</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Link3</a></li>
+					<li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+					<li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+					<li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<div class="container-fluid side-nav">
-		<ul id="navLeft">
-			<div class="sideInner">
-				<li>BRAND LIST</li>
-				<li>GALLERY</li>
-				<li>COMMUNITY</li>
-				<li>WEBZINE</li>
-			</div>
-		</ul>
-		<ul id="navRight">
-			<div class="sideInner">
-				<li>LOGIN / JOIN</li>
-				<li>MY PAGE</li>
-				<li>CART</li>
-				<li>ORDER</li>
-			</div>
-		</ul>
-	</div>
-	<div class="body">
-		<div class="carousel-container">
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="d-block v-100 w-100" src="img/carousel1.jpg" alt="First slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block v-100 w-100" src="img/carousel2.jpg" alt="Second slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block v-100 w-100" src="img/carousel3.jpg" alt="Third slide">
-					</div>
+	<div class="everything">
+		<div class="container-fluid side-nav">
+			<ul id="navLeft">
+				<div class="sideInner">
+					<li>BRAND LIST</li>
+					<li>GALLERY</li>
+					<li>COMMUNITY</li>
+					<li>WEBZINE</li>
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-			<div class="rightOfCarousel">
-				<img src="img/sale.jpg">
-			</div>
+			</ul>
+			<ul id="navRight">
+				<div class="sideInner">
+					<li>LOGIN / JOIN</li>
+					<li>MY PAGE</li>
+					<li>CART</li>
+					<li>ORDER</li>
+				</div>
+			</ul>
 		</div>
-		<div class="">
+		<div class="body">
+			<div class="carousel-container">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block v-100 w-100" src="img/carousel1.jpg" alt="First slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block v-100 w-100" src="img/carousel2.jpg" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block v-100 w-100" src="img/carousel3.jpg" alt="Third slide">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<div class="rightOfCarousel">
+					<img src="img/sale.jpg">
+				</div>
+			</div>
+			<div class="">
 
+			</div>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
