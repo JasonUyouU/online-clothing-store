@@ -1,3 +1,11 @@
+.navbar {
+  border-top: 4px solid black;
+  border-bottom: 1px solid #d9d9d9;
+}
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
 .middle {
   width: 30%;
   margin: 0 auto;
@@ -20,7 +28,7 @@
   height: 100vh;
   background-color: #FFFFFF;
   position: absolute;
-  border-right: 1px black solid;
+  border-right: 1px #d9d9d9 solid;
 }
 #navRight {
   float: right;
@@ -30,7 +38,7 @@
   width: 180px;
   height: 100vh;
   background-color: #FFFFFF;
-  border-left: 1px black solid;
+  border-left: 1px #d9d9d9 solid;
 }
 .side-nav ul li {
   display: block;
