@@ -1,6 +1,7 @@
 .navbar {
   border-top: 4px solid black;
   border-bottom: 1px solid #d9d9d9;
+  background: white;
 }
 .navbar-brand {
   margin-left: 20px;
@@ -92,4 +93,11 @@
 }
 .carousel-item img {
   height: 100%;
+}
+.threePhotos {
+  margin: 40px 0;
+}
+.threePhotos .row .col-md-4 {
+  margin: 0;
+  padding: 0;
 }
