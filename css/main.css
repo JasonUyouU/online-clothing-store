@@ -104,3 +104,14 @@
 .threePhotos img {
   height: 100%;
 }
+.break {
+  text-align: center;
+  padding: 20px 0;
+}
+.break h5 {
+  font-weight: 400;
+}
+.break p {
+  font-size: 13px;
+  color: #a7662b;
+}
